@@ -1,0 +1,20 @@
+kindly share ip address, 
+
+CREATE USER 'mydbuser'@'localhost' IDENTIFIED BY 'gBUP6mmd@!sY5UEAA8';
+
+CREATE USER 'mydbuser'@'%' IDENTIFIED BY 'gBUP6mmd@!sY5UEAA8';
+
+GRANT ALL PRIVILEGES ON *. * TO 'mydbuser'@'localhost';
+
+GRANT ALL ON *.* TO 'mydbuser'@'%';
+ 
+
+
+
+CREATE USER 'rootuser'@'localhost' IDENTIFIED BY 'gBUP6mmd@!sY5UEAA8';
+
+CREATE USER 'rootuser'@'%' IDENTIFIED BY 'gBUP6mmd@!sY5UEAA8';
+
+GRANT ALL PRIVILEGES ON *. * TO 'rootuser'@'localhost';
+
+GRANT ALL ON *.* TO 'rootuser'@'%';
